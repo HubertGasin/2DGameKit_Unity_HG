@@ -34185,6 +34185,7 @@ GameObject:
   - component: {fileID: 114578885164018164}
   - component: {fileID: 82647150550285880}
   - component: {fileID: 6204405325124270822}
+  - component: {fileID: 8243267298852338756}
   m_Layer: 15
   m_Name: HealthPickup
   m_TagString: Untagged
@@ -34320,6 +34321,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 8243267298852338756}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!82 &82647150550285880
 AudioSource:
   m_ObjectHideFlags: 0
@@ -34432,14 +34445,45 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -647233271
+      Data2: 1171752437
+      Data3: 512782977
+      Data4: -318131918
+    Path: event:/SFX/ENVIRONMENT/Interactables/Health Box/sfx_env_healthBox_pickup
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &8243267298852338756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954613752930952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 206457758
+      Data2: 1156893984
+      Data3: 1516598420
+      Data4: 849186606
+    Path: event:/SFX/ENVIRONMENT/Interactables/Health Box/sfx_env_healthBox_idle_lp
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0

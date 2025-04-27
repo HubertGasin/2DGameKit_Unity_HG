@@ -4510,7 +4510,7 @@ MonoBehaviour:
       Data2: 1167233776
       Data3: -1525746787
       Data4: -28240197
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_fs
+    Path: event:/SFX/ENEMIES/Gunner/Footsteps/sfx_enm_gunner_fs
   gunnerIdleEvent:
     Guid:
       Data1: -448225934
@@ -4520,11 +4520,11 @@ MonoBehaviour:
     Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
   gunnerLaserAttackEvent:
     Guid:
-      Data1: -448225934
-      Data2: 1206822725
-      Data3: 643070597
-      Data4: -289440078
-    Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
+      Data1: 1258788282
+      Data2: 1326229915
+      Data3: -266131780
+      Data4: 828963228
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_laser
   gunnerGrenadeThrowEvent:
     Guid:
       Data1: -448225934
@@ -4534,11 +4534,11 @@ MonoBehaviour:
     Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
   gunnerLightningAttackEvent:
     Guid:
-      Data1: -448225934
-      Data2: 1206822725
-      Data3: 643070597
-      Data4: -289440078
-    Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
+      Data1: 951992603
+      Data2: 1285574571
+      Data3: 1309357503
+      Data4: -1980608606
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_electric
   gunnerLaserHitEvent:
     Guid:
       Data1: -448225934
@@ -4548,25 +4548,25 @@ MonoBehaviour:
     Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
   gunnerHurtEvent:
     Guid:
-      Data1: -448225934
-      Data2: 1206822725
-      Data3: 643070597
-      Data4: -289440078
-    Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
+      Data1: -140217364
+      Data2: 1250853780
+      Data3: -1420782957
+      Data4: -1260508104
+    Path: event:/SFX/ENEMIES/Gunner/Damage/sfx_enm_gunner_pain_body
   gunnerDeathEvent:
     Guid:
-      Data1: -448225934
-      Data2: 1206822725
-      Data3: 643070597
-      Data4: -289440078
-    Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
+      Data1: -1999538402
+      Data2: 1279120968
+      Data3: 142437526
+      Data4: -959236860
+    Path: event:/SFX/ENEMIES/Gunner/Damage/sfx_enm_gunner_death
   gunnerDeathBeamEvent:
     Guid:
-      Data1: -448225934
-      Data2: 1206822725
-      Data3: 643070597
-      Data4: -289440078
-    Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
+      Data1: 502877781
+      Data2: 1156126790
+      Data3: 1233488575
+      Data4: -2009667074
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_ultrabeam
   gunnerStepEmitter: {fileID: 846088712}
   gunnerIdleEmitter: {fileID: 1764488594}
   gunnerLaserAttackEmitter: {fileID: 1114278615}

@@ -1170,11 +1170,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepEvent:
     Guid:
-      Data1: -448225934
-      Data2: 1206822725
-      Data3: 643070597
-      Data4: -289440078
-    Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
+      Data1: -1829545314
+      Data2: 1163707839
+      Data3: 1546904736
+      Data4: 222068999
+    Path: event:/SFX/ENEMIES/Chomper/sfx_enm_chomper_fs
   idleLoopEvent:
     Guid:
       Data1: -478131292
@@ -1198,16 +1198,16 @@ MonoBehaviour:
     Path: event:/SFX/ENEMIES/Chomper/sfx_enm_chomper_attack
   painEvent:
     Guid:
-      Data1: -1133643302
-      Data2: 1292047896
-      Data3: 1562451353
-      Data4: -1010369138
-    Path: event:/SFX/ENEMIES/Spitter/sfx_enm_spitter_pain
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   deathEvent:
     Guid:
-      Data1: 194818376
-      Data2: 1311944945
-      Data3: 1205365416
-      Data4: -690921023
-    Path: event:/SFX/ENEMIES/Spitter/sfx_enm_spitter_death
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   isIdleLoopPlaying: 0
