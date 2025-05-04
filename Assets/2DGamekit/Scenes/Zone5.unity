@@ -4541,11 +4541,11 @@ MonoBehaviour:
     Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_electric
   gunnerLaserHitEvent:
     Guid:
-      Data1: -448225934
-      Data2: 1206822725
-      Data3: 643070597
-      Data4: -289440078
-    Path: event:/_Utilities/Test Events/test_1kHz_3D_action_generalSpat
+      Data1: -188971582
+      Data2: 1318199541
+      Data3: -1049350987
+      Data4: 1987933617
+    Path: event:/SFX/ENVIRONMENT/Impact/Enemies/Gunner/sfx_env_enm_gunner_laser_splash
   gunnerHurtEvent:
     Guid:
       Data1: -140217364
