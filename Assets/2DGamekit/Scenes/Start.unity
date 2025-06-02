@@ -2920,11 +2920,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 2099291012
-      Data2: 1168154930
-      Data3: -478067540
-      Data4: 1091312133
-    Path: event:/MUSIC/MainMenu_Zone1/msc_mmenu_zone01_02_03
+      Data1: 1068208833
+      Data2: 1080413145
+      Data3: 1906367879
+      Data4: 1700183221
+    Path: event:/MUSIC/MainMenu/mus_MainMenu
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 0
@@ -2964,7 +2964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Parameter: Zone
+  Parameter: Scene
   TriggerEvent: 1
   Value: 0
 --- !u!1 &616697226
