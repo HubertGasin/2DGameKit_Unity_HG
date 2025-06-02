@@ -4876,7 +4876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4520692980973648}
   - component: {fileID: 82609891197987826}
-  - component: {fileID: 613171168265057357}
+  - component: {fileID: 7500882887756240878}
   m_Layer: 0
   m_Name: PickUpEffect
   m_TagString: Untagged
@@ -4996,7 +4996,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &613171168265057357
+--- !u!114 &7500882887756240878
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19590,7 +19590,7 @@ GameObject:
   - component: {fileID: 212334846230632610}
   - component: {fileID: 95529108578994780}
   - component: {fileID: 58802698708281874}
-  - component: {fileID: 7042036244628930765}
+  - component: {fileID: 8219273534300952403}
   m_Layer: 0
   m_Name: Key
   m_TagString: Untagged
@@ -19725,7 +19725,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7042036244628930765
+--- !u!114 &8219273534300952403
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
