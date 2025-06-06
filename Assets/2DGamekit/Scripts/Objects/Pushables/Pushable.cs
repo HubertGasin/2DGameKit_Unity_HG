@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMOD.Studio;
+using FMODUnity;
 
 namespace Gamekit2D
 {
@@ -20,6 +22,16 @@ namespace Gamekit2D
         public AudioClip loopPushClip;
         public AudioClip endPushClip;
 
+        [Header("FMOD Events")]
+        public EventReference startPushEvent;
+        public EventReference loopPushEvent;
+        public EventReference endPushEvent;
+        public EventReference buoyantSplash;
+
+        public EventInstance loopPushInstance;
+
+        private FMOD.ATTRIBUTES_3D attributes3d;
+
         public bool Grounded {  get { return m_Grounded; } }
 
         protected SpriteRenderer m_SpriteRenderer;
@@ -31,6 +43,8 @@ namespace Gamekit2D
         {
             m_SpriteRenderer = GetComponent<SpriteRenderer>();
             m_Rigidbody2D = GetComponent<Rigidbody2D> ();
+
+            loopPushInstance = RuntimeManager.CreateInstance(loopPushEvent);
 
             if (s_PushableCache.Count == 0)
             {
@@ -61,6 +75,9 @@ namespace Gamekit2D
             velocity.x = 0f;
             m_Rigidbody2D.velocity = velocity;
 
+            attributes3d = RuntimeUtils.To3DAttributes(transform);
+            loopPushInstance.set3DAttributes(attributes3d);
+
             CheckGrounded();
 
             for (int i = 0; i < m_WaterColliders.Length; i++)
@@ -74,6 +91,8 @@ namespace Gamekit2D
 
         public void StartPushing()
         {
+            AudioManager.Instance.PlaySound(startPushEvent, transform.position);
+
             pushableAudioSource.loop = false;
             pushableAudioSource.clip = startingPushClip;
             pushableAudioSource.Play();
@@ -81,6 +100,9 @@ namespace Gamekit2D
 
         public void EndPushing()
         {
+            AudioManager.Instance.PlaySound(endPushEvent, transform.position);
+            loopPushInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+
             pushableAudioSource.loop = false;
             pushableAudioSource.clip = endPushClip;
             pushableAudioSource.Play();
@@ -95,6 +117,11 @@ namespace Gamekit2D
                 pushableAudioSource.clip = loopPushClip;
                 pushableAudioSource.loop = true;
                 pushableAudioSource.Play();
+            }
+
+            if (AudioManager.Instance.IsStopped(loopPushInstance))
+            {
+                loopPushInstance.start();
             }
         }
 
@@ -116,6 +143,29 @@ namespace Gamekit2D
                         //if it is grounded on another pushable, we ensure that it is drawn after the one under, so it appear on top.
                         m_SpriteRenderer.sortingOrder = pushable.m_SpriteRenderer.sortingOrder + 1;
                     }
+                }
+            }
+        }
+
+        void OnCollisionEnter2D(Collision2D collision)
+        {
+            // Check if player landed on me
+            if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
+            {
+                // Check if box is in water (floating)
+                bool isInWater = false;
+                for (int i = 0; i < m_WaterColliders.Length; i++)
+                {
+                    if (m_Rigidbody2D.IsTouching(m_WaterColliders[i]))
+                    {
+                        isInWater = true;
+                        break;
+                    }
+                }
+
+                if (isInWater)
+                {
+                    RuntimeManager.PlayOneShotAttached(buoyantSplash, gameObject);
                 }
             }
         }
