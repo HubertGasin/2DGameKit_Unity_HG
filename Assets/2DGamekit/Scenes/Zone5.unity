@@ -4568,42 +4568,42 @@ MonoBehaviour:
       Data2: 1167233776
       Data3: -1525746787
       Data4: -28240197
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_fs
+    Path: event:/SFX/ENEMIES/Gunner/Footsteps/sfx_enm_gunner_fs
   gunnerIdleEvent:
     Guid:
-      Data1: 959772459
-      Data2: 1274977415
-      Data3: 872821431
-      Data4: 1709147610
+      Data1: -1311010580
+      Data2: 1083192292
+      Data3: 332833454
+      Data4: 277106088
     Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_idle
   gunnerLaserAttackEvent:
     Guid:
-      Data1: -2112054828
-      Data2: 1075927652
-      Data3: 1961131667
-      Data4: -813459074
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_laserAttack
+      Data1: 502877781
+      Data2: 1156126790
+      Data3: 1233488575
+      Data4: -2009667074
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_ultrabeam
   gunnerGrenadeThrowEvent:
     Guid:
-      Data1: 1867160521
-      Data2: 1103432668
-      Data3: 1750910605
-      Data4: 33122985
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_grenade
+      Data1: -1860612163
+      Data2: 1307211824
+      Data3: -1095489375
+      Data4: -481037251
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_grenadeThrow
   gunnerLightningAttackEvent:
     Guid:
-      Data1: 131372854
-      Data2: 1197374531
-      Data3: -1381118844
-      Data4: 878474162
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_lightning
+      Data1: 951992603
+      Data2: 1285574571
+      Data3: 1309357503
+      Data4: -1980608606
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_electric
   gunnerAttackChargeEvent:
     Guid:
-      Data1: 612241147
-      Data2: 1164423439
-      Data3: -748483394
-      Data4: 1872494641
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_attackCharge
+      Data1: 1079261685
+      Data2: 1213926686
+      Data3: 1736017339
+      Data4: 1020504121
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attackCharge
   gunnerLaserHitEvent:
     Guid:
       Data1: -751622519
@@ -4613,60 +4613,60 @@ MonoBehaviour:
     Path: event:/_Utilities/Test Events/test_empty_action
   gunnerGettingUpEvent:
     Guid:
-      Data1: -417653787
-      Data2: 1208423823
-      Data3: -658955091
-      Data4: -1898959497
+      Data1: -1131861294
+      Data2: 1162609533
+      Data3: 2106069161
+      Data4: -1240020515
     Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_gettingUp
   gunnerHurtEvent:
     Guid:
-      Data1: -1709859028
-      Data2: 1163904177
-      Data3: -1302610794
-      Data4: -466539243
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_hit
+      Data1: -140217364
+      Data2: 1250853780
+      Data3: -1420782957
+      Data4: -1260508104
+    Path: event:/SFX/ENEMIES/Gunner/Damage/sfx_enm_gunner_pain_body
   gunnerDeathEvent:
     Guid:
-      Data1: -689339090
-      Data2: 1243621902
-      Data3: -2014374013
-      Data4: -706414665
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_disabled
+      Data1: -1145136100
+      Data2: 1149690956
+      Data3: -1741776712
+      Data4: 1364678153
+    Path: event:/SFX/ENEMIES/Gunner/Damage/sfx_enm_gunner_roundDeath
   gunnerDeathBeamEvent:
     Guid:
-      Data1: -1567581043
-      Data2: 1083637103
-      Data3: 1486774941
-      Data4: -1957405474
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_death
+      Data1: -1999538402
+      Data2: 1279120968
+      Data3: 142437526
+      Data4: -959236860
+    Path: event:/SFX/ENEMIES/Gunner/Damage/sfx_enm_gunner_death
   gunnerSparksEvent:
     Guid:
-      Data1: 1735953944
-      Data2: 1337019589
-      Data3: 1564042134
-      Data4: 697768390
+      Data1: 118307385
+      Data2: 1122551294
+      Data3: 1229841325
+      Data4: -67889708
     Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_sparks
   gunnerShieldActivateLp:
     Guid:
-      Data1: -792548326
-      Data2: 1166464448
-      Data3: -1076684899
-      Data4: 709286409
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_shieldActivateLp
+      Data1: 360226262
+      Data2: 1131638816
+      Data3: 717284506
+      Data4: 1473503999
+    Path: event:/SFX/ENEMIES/Gunner/shield/sfx_emn_gunner_shield_repair
   gunnerShieldHit:
     Guid:
-      Data1: -29319972
-      Data2: 1233210269
-      Data3: 1130254771
-      Data4: -485254490
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_shieldHit
+      Data1: -672577774
+      Data2: 1104216499
+      Data3: -1638100845
+      Data4: 235703649
+    Path: event:/SFX/ENEMIES/Gunner/Damage/sfx_enm_gunner_pain_shield
   gunnerShieldDeactivate:
     Guid:
-      Data1: 982535287
-      Data2: 1240655486
-      Data3: 1090427574
-      Data4: -636164566
-    Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_shieldDeactivate
+      Data1: -229625759
+      Data2: 1135028221
+      Data3: 661074057
+      Data4: 1287307138
+    Path: event:/SFX/ENEMIES/Gunner/Shield/sfx_emn_gunner_shield_break
   gunnerStepEmitter: {fileID: 846088712}
   gunnerIdleEmitter: {fileID: 1764488594}
   gunnerLaserAttackEmitter: {fileID: 1114278615}
