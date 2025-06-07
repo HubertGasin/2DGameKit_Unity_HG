@@ -9873,11 +9873,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   splashEvent:
     Guid:
-      Data1: -347838453
-      Data2: 1148238518
-      Data3: -875499339
-      Data4: 715920820
-    Path: event:/SFX/ENVIRONMENT/Interactables/Box/sfx_env_box_fall
+      Data1: -1455198806
+      Data2: 1227442634
+      Data3: 2087031989
+      Data4: -1598012266
+    Path: event:/SFX/ENVIRONMENT/Interactables/Toxic Water/sfx_env_toxicWater_touch
   pointPerUnits: 5
   offset: {x: 0, y: 0}
   size: {x: 6.88, y: 2}
