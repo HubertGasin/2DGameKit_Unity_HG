@@ -1316,6 +1316,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 807849617}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.461}
+--- !u!114 &134675601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114206927793940296, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819979177}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff44b8ffcc6c954196bfdcf3eaff9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &146217677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,6 +2969,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1826158327}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &318621678 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114206927793940296, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1826158327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff44b8ffcc6c954196bfdcf3eaff9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &320051484
 GameObject:
   m_ObjectHideFlags: 0
@@ -49054,6 +49078,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1716219479}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1466245698 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114206927793940296, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1716219479}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff44b8ffcc6c954196bfdcf3eaff9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1481444132 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1875352171622946, guid: d5a14f17f544e6c4db02c9bdfbb9b1b0,
@@ -51130,6 +51166,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: platformCatcher
+      value: 
+      objectReference: {fileID: 1466245698}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 10.540284
       objectReference: {fileID: 0}
@@ -51156,6 +51197,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: 2da3192b993471540944ac96226c9333,
         type: 3}
+    - target: {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -52180,6 +52231,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: platformCatcher
+      value: 
+      objectReference: {fileID: 134675601}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 14.045254
       objectReference: {fileID: 0}
@@ -52210,6 +52266,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SurfaceArc
       value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -52293,6 +52359,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: platformCatcher
+      value: 
+      objectReference: {fileID: 318621678}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 13.038454
       objectReference: {fileID: 0}
@@ -52319,6 +52390,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: 2da3192b993471540944ac96226c9333,
         type: 3}
+    - target: {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
