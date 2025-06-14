@@ -51171,6 +51171,11 @@ PrefabInstance:
       objectReference: {fileID: 1466245698}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: movingPlatformEvent.Path
+      value: event:/_Utilities/Test Events/test_empty_action
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 10.540284
       objectReference: {fileID: 0}
@@ -51178,6 +51183,26 @@ PrefabInstance:
         type: 3}
       propertyPath: localNodes.Array.data[1].y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data1
+      value: -751622519
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data2
+      value: 1309741784
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data3
+      value: 1705871511
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data4
+      value: 1355061229
       objectReference: {fileID: 0}
     - target: {fileID: 212062337697364760, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
@@ -52236,6 +52261,11 @@ PrefabInstance:
       objectReference: {fileID: 134675601}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: movingPlatformEvent.Path
+      value: event:/_Utilities/Test Events/test_empty_action
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 14.045254
       objectReference: {fileID: 0}
@@ -52243,6 +52273,26 @@ PrefabInstance:
         type: 3}
       propertyPath: localNodes.Array.data[1].y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data1
+      value: -751622519
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data2
+      value: 1309741784
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data3
+      value: 1705871511
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data4
+      value: 1355061229
       objectReference: {fileID: 0}
     - target: {fileID: 212062337697364760, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
@@ -52364,6 +52414,11 @@ PrefabInstance:
       objectReference: {fileID: 318621678}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: movingPlatformEvent.Path
+      value: event:/_Utilities/Test Events/test_empty_action
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 13.038454
       objectReference: {fileID: 0}
@@ -52371,6 +52426,26 @@ PrefabInstance:
         type: 3}
       propertyPath: localNodes.Array.data[1].y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data1
+      value: -751622519
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data2
+      value: 1309741784
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data3
+      value: 1705871511
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data4
+      value: 1355061229
       objectReference: {fileID: 0}
     - target: {fileID: 212062337697364760, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
