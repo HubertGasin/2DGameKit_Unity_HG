@@ -1198,10 +1198,10 @@ MonoBehaviour:
     Path: event:/SFX/ENEMIES/Chomper/sfx_enm_chomper_attack
   painEvent:
     Guid:
-      Data1: -620035127
-      Data2: 1100402311
-      Data3: -505913420
-      Data4: 661044871
+      Data1: 1484797178
+      Data2: 1123093477
+      Data3: 1963207053
+      Data4: -281332969
     Path: event:/SFX/ENEMIES/Chomper/sfx_enm_chomper_pain
   deathEvent:
     Guid:

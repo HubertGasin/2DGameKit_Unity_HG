@@ -347,10 +347,10 @@ MonoBehaviour:
     Path: event:/SFX/ENEMIES/Spitter/sfx_enm_spitter_attack
   painEvent:
     Guid:
-      Data1: -963084269
-      Data2: 1228664529
-      Data3: 23510186
-      Data4: -2036344950
+      Data1: -1147138287
+      Data2: 1268969119
+      Data3: -1844477297
+      Data4: 1458364374
     Path: event:/SFX/ENEMIES/Spitter/sfx_enm_spitter_pain
   deathEvent:
     Guid:
