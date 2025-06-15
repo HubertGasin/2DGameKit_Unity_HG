@@ -13163,15 +13163,30 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380652608}
-  - component: {fileID: 380652607}
+  - component: {fileID: 380652609}
   m_Layer: 0
-  m_Name: FMODAudioObject_Loop
+  m_Name: FMODAudioObject_Loop_key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &380652607
+--- !u!4 &380652608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380652606}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 24.51, y: -4.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &380652609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13192,7 +13207,7 @@ MonoBehaviour:
       Data4: -1795475387
     Path: event:/SFX/ENVIRONMENT/Interactables/Key/sfx_env_key_idle_lp
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 11
   EventStopTrigger: 12
   AllowFadeout: 1
   TriggerOnce: 0
@@ -13202,21 +13217,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!4 &380652608
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380652606}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1706047232}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &382315443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29007,7 +29007,6 @@ Transform:
   - {fileID: 665692906}
   - {fileID: 176476031}
   - {fileID: 753075525}
-  - {fileID: 380652608}
   - {fileID: 934597074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29201,6 +29200,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 380652609}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Stop
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -38000,6 +38011,7 @@ SceneRoots:
   - {fileID: 1648021371}
   - {fileID: 2098777676}
   - {fileID: 1706047232}
+  - {fileID: 380652608}
   - {fileID: 1400570540}
   - {fileID: 1121491879}
   - {fileID: 1065421562}

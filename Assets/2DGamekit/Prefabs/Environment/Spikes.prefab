@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 61138398683113504}
   - component: {fileID: 114793837149260334}
   - component: {fileID: 467087226350798668}
+  - component: {fileID: 8330510922271061428}
   m_Layer: 31
   m_Name: Spikes
   m_TagString: Untagged
@@ -158,7 +159,19 @@ MonoBehaviour:
     m_Bits: 8192
   OnDamageableHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8330510922271061428}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnNonDamageableHit:
     m_PersistentCalls:
       m_Calls: []
@@ -185,6 +198,37 @@ MonoBehaviour:
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &8330510922271061428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065201289290768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 104190172
+      Data2: 1176050999
+      Data3: 879816887
+      Data4: 433550202
+    Path: event:/SFX/ENVIRONMENT/Interactables/Pink Diamonds/sfx_env_pdiam_touch
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
