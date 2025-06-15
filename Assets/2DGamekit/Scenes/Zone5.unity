@@ -4602,11 +4602,11 @@ MonoBehaviour:
     Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_idle
   gunnerLaserAttackEvent:
     Guid:
-      Data1: 502877781
-      Data2: 1156126790
-      Data3: 1233488575
-      Data4: -2009667074
-    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_ultrabeam
+      Data1: 1258788282
+      Data2: 1326229915
+      Data3: -266131780
+      Data4: 828963228
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_laser
   gunnerGrenadeThrowEvent:
     Guid:
       Data1: -1860612163
