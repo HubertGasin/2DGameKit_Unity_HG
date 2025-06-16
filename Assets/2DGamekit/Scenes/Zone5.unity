@@ -4528,6 +4528,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 896539101}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   bossDeathClip: {fileID: 8300000, guid: a5c71d82307ccf942892b3c4e022cfe5, type: 3}
   playerDeathClip: {fileID: 8300000, guid: 31b2284e8ab3f244182080ca7da474b7, type: 3}
   postBossClip: {fileID: 8300000, guid: 0651b56880a11ef45909b779443691aa, type: 3}
