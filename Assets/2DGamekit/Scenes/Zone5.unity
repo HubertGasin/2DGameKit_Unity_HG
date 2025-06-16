@@ -4602,11 +4602,11 @@ MonoBehaviour:
     Path: event:/SFX/ENEMIES/Gunner/sfx_enm_gunner_idle
   gunnerLaserAttackEvent:
     Guid:
-      Data1: 1258788282
-      Data2: 1326229915
-      Data3: -266131780
-      Data4: 828963228
-    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_laser
+      Data1: 1079261685
+      Data2: 1213926686
+      Data3: 1736017339
+      Data4: 1020504121
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attackCharge
   gunnerGrenadeThrowEvent:
     Guid:
       Data1: -1860612163
@@ -49286,6 +49286,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 949645367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1449995146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1060890752421732, guid: 296b19e4ad513154e9aa7cff2f759a1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1621169308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1449995149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449995146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1258788282
+      Data2: 1326229915
+      Data3: -266131780
+      Data4: 828963228
+    Path: event:/SFX/ENEMIES/Gunner/Attack/sfx_enm_gunner_attack_laser
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &1466245691 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
@@ -50700,6 +50737,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1404087664205636, guid: 296b19e4ad513154e9aa7cff2f759a1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4856042347683460, guid: 296b19e4ad513154e9aa7cff2f759a1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -50748,7 +50789,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1060890752421732, guid: 296b19e4ad513154e9aa7cff2f759a1e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1449995149}
   m_SourcePrefab: {fileID: 100100000, guid: 296b19e4ad513154e9aa7cff2f759a1e, type: 3}
 --- !u!4 &1621169309 stripped
 Transform:
