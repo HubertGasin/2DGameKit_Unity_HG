@@ -13180,11 +13180,11 @@ Transform:
   m_GameObject: {fileID: 380652606}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.51, y: -4.32, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1706047232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &380652609
 MonoBehaviour:
@@ -29007,6 +29007,7 @@ Transform:
   - {fileID: 665692906}
   - {fileID: 176476031}
   - {fileID: 753075525}
+  - {fileID: 380652608}
   - {fileID: 934597074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29209,16 +29210,16 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 380652609}
-        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
-        m_MethodName: Stop
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   OnExit:
     m_PersistentCalls:
@@ -38011,7 +38012,6 @@ SceneRoots:
   - {fileID: 1648021371}
   - {fileID: 2098777676}
   - {fileID: 1706047232}
-  - {fileID: 380652608}
   - {fileID: 1400570540}
   - {fileID: 1121491879}
   - {fileID: 1065421562}
